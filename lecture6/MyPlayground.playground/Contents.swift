@@ -1,7 +1,7 @@
 import UIKit
 
 struct Queue<T> {
-    var elements: [T] = [];
+    private var elements: [T] = [];
     
     mutating func enqueue(element: T) {
         elements.append(element)
